@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo .logo-style {
+  color: var(--navyblue, #2e2f42);
+}
+.nav-list .nav-link {
+  color: var(--navyblue, #2e2f42);
+  font-weight: 500;
+  line-height: 1.5;
+}
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: var(--ocean, #404bbf);
+}
+.address-container {
+  font-style: normal;
+}
+.address-container .address-link {
+  color: var(--slate, #434455);
+  line-height: 1.5;
+}
+.address-container .address-link:hover,
+.address-container .address-link:focus {
+  color: var(--ocean, #404bbf);
+}
+.order-container {
+  background-color: var(--navyblue, #2e2f42);
+}
+.order-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.border-button {
+  background-color: var(--iris, #4d5ae5);
+  cursor: pointer;
+  color: var(--white, #fff);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.border-button:hover,
+.border-button:focus {
+  background-color: var(--ocean, #404bbf);
+}
+.advantages-item,
+.team-item,
+.portfolio-item {
+  color: var(--navyblue, #2e2f42);
+}
+.advantages-item-title,
+.team-item-title,
+.portfolio-item-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.advantages-text,
+.team-item-text,
+.portfolio-item-text {
+  line-height: 1.5;
+  color: #434455;
+}
+.team-item-title,
+.team-item-text {
+  text-align: center;
+}
+.team-container {
+  background-color: var(--cloud, #f4f4fd);
+}
+.advantages-title,
+.team-title,
+.portfolio-cont-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-item {
+  background: var(--white, #fff);
+}
+.adves-container {
+  background-color: var(--navyblue, #2e2f42);
+}
+.adves-text {
+  color: var(--cloud, #f4f4fd);
+  line-height: 1.5;
+}
+.adves-container .logo-style {
+  color: var(--cloud, #f4f4fd);
+}
