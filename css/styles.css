@@ -90,6 +90,10 @@ img {
   padding: 16px 32px;
   border-radius: 4px;
   margin-top: 48px;
+  min-width: 169px;
+  height: 56px;
+  display: block;
+  border: none;
 }
 .border-button:hover,
 .border-button:focus {
@@ -137,6 +141,7 @@ img {
 .team-item {
   background: var(--white, #fff);
   flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .adves-container {
   background-color: var(--navyblue, #2e2f42);
@@ -149,10 +154,12 @@ img {
 .adves-container .logo-style {
   color: var(--cloud, #f4f4fd);
 }
+.header-container {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-list {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
   align-items: center;
 }
 .header-container .menu-list {
@@ -178,8 +185,9 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.order-container .container {
+.order-container {
   padding: 188px 0;
+
 }
 .advantages-list,
 .team-list,
@@ -191,8 +199,8 @@ img {
 .advantages-item {
   flex-basis: calc((100% - 72px) / 4);
 }
-.team-list {
-  margin-top: 72px;
+.team-title {
+  margin-bottom: 72px;
 }
 .team-item-descr,
 .portfolio-item-descr {
