@@ -23,6 +23,7 @@ a {
 }
 img {
   display: block;
+  object-fit: cover;
 }
 .container {
   max-width: 1158px;
@@ -30,7 +31,9 @@ img {
   padding-right: 15px;
   margin: 0 auto;
 }
-.section {
+.team-container,
+.portfolio-container,
+.advantages-container {
   padding: 120px 0;
 }
 .logo {
@@ -79,6 +82,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
 }
 .border-button {
   background-color: var(--iris, #4d5ae5);
@@ -89,11 +93,11 @@ img {
   letter-spacing: 0.04em;
   padding: 16px 32px;
   border-radius: 4px;
-  margin-top: 48px;
   min-width: 169px;
   height: 56px;
   display: block;
   border: none;
+  margin: 48px auto 0 auto;
 }
 .border-button:hover,
 .border-button:focus {
@@ -155,7 +159,7 @@ img {
   color: var(--cloud, #f4f4fd);
 }
 .header-container,
-.portfolio-container {
+.portfolio-item-descr {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-list {
